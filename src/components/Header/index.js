@@ -6,10 +6,15 @@ import Text from "../../UI/Text";
 
 const HeaderWrapp = styled.header``;
 
-const Header = () => {
+const Header = ({ location, activeName }) => {
+  let headerText =
+    location.pathname === "/"
+      ? "Бургеры из меню Mc'donalds"
+      : `Редактирование бургера ${activeName}`;
+
   return (
     <HeaderWrapp>
-      <Text text="Бургеры из меню Mc'donalds" />
+      <Text text={headerText} />
     </HeaderWrapp>
   );
 };

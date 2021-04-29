@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 export const DataContext = React.createContext();
 
-const url = `https://my-json-server.typicode.com/NickMomotenko/codempire/menu`;
+const url = `https://my-json-server.typicode.com/NickMomotenko/codempire/db`;
 
 export const DataProvider = ({ children }) => {
   const [data, setData] = useState(null);
