@@ -3,64 +3,33 @@
     {
       "id": 1,
       "name": "Дабл Чікен Кентукі",
-      "icon": "https://robohash.org/velitnemoamet.png?size=50x50&set=set1"
+      "icon": "https://www.mcdonalds.com/is/image/content/dam/ua/nutrition/nfl-product/product/regular/Double%20Chicken%20Kentuky.png?$Category_Desktop$"
     },
     {
       "id": 2,
       "name": "Житній зі свининою та соусом з хріном",
-      "icon": "https://robohash.org/velitnemoamet.png?size=50x50&set=set1"
+      "icon": "https://www.mcdonalds.com/is/image/content/dam/ua/nutrition/nfl-product/product/regular/SdwchBigTasty.png?$Category_Desktop$"
     },
     {
       "id": 3,
       "name": "Житній з куркою та часниковим соусом",
-      "icon": "https://robohash.org/velitnemoamet.png?size=50x50&set=set1"
+      "icon": "https://www.mcdonalds.com/is/image/content/dam/ua/nutrition/nfl-product/product/regular/UABurgerChicken.png?$Category_Desktop$"
     },
     {
       "id": 4,
       "name": "Дабл Чізбургер",
-      "icon": "https://robohash.org/velitnemoamet.png?size=50x50&set=set1"
+      "icon": "https://www.mcdonalds.com/is/image/content/dam/ua/nutrition/nfl-product/product/regular/Sdwch_McChicken_Bacon.png?$Category_Desktop$"
     },
     {
       "id": 5,
       "name": "Біг Мак",
-      "icon": "https://robohash.org/velitnemoamet.png?size=50x50&set=set1"
+      "icon": "https://www.mcdonalds.com/is/image/content/dam/ua/nutrition/nfl-product/product/regular/thumb.Sdwch_BigMac.png?$Category_Desktop$"
     },
     {
       "id": 6,
       "name": "Гамбургер",
-      "icon": "https://robohash.org/velitnemoamet.png?size=50x50&set=set1"
+      "icon": "https://www.mcdonalds.com/is/image/content/dam/ua/nutrition/nfl-product/product/regular/Sdwch_Hamburger.png?$Category_Desktop$"
     }
   ],
-  "posts": [
-    {
-      "id": 1,
-      "name": "Дабл Чікен Кентукі",
-      "icon": "https://robohash.org/velitnemoamet.png?size=50x50&set=set1"
-    },
-    {
-      "id": 2,
-      "name": "Житній зі свининою та соусом з хріном",
-      "icon": "https://robohash.org/velitnemoamet.png?size=50x50&set=set1"
-    },
-    {
-      "id": 3,
-      "name": "Житній з куркою та часниковим соусом",
-      "icon": "https://robohash.org/velitnemoamet.png?size=50x50&set=set1"
-    },
-    {
-      "id": 4,
-      "name": "Дабл Чізбургер",
-      "icon": "https://robohash.org/velitnemoamet.png?size=50x50&set=set1"
-    },
-    {
-      "id": 5,
-      "name": "Біг Мак",
-      "icon": "https://robohash.org/velitnemoamet.png?size=50x50&set=set1"
-    },
-    {
-      "id": 6,
-      "name": "Гамбургер",
-      "icon": "https://robohash.org/velitnemoamet.png?size=50x50&set=set1"
-    }
-  ]
+  "posts": []
 }

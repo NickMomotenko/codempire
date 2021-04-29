@@ -1,7 +1,21 @@
 import React from "react";
 
-const App = () => {
-  return <div></div>;
+import styled from "styled-components";
+
+import { withData } from "./context/data";
+
+import Header from "./components/Header";
+import Main from "./components/Main";
+
+const AppWrapp = styled.div``;
+
+const App = (props) => {
+  return (
+    <AppWrapp>
+      <Header />
+      <Main />
+    </AppWrapp>
+  );
 };
 
-export default App;
+export default withData(App);
