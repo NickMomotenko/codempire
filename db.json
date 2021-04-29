@@ -1,0 +1,66 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Дабл Чікен Кентукі",
+      "icon": "https://robohash.org/velitnemoamet.png?size=50x50&set=set1"
+    },
+    {
+      "id": 2,
+      "name": "Житній зі свининою та соусом з хріном",
+      "icon": "https://robohash.org/velitnemoamet.png?size=50x50&set=set1"
+    },
+    {
+      "id": 3,
+      "name": "Житній з куркою та часниковим соусом",
+      "icon": "https://robohash.org/velitnemoamet.png?size=50x50&set=set1"
+    },
+    {
+      "id": 4,
+      "name": "Дабл Чізбургер",
+      "icon": "https://robohash.org/velitnemoamet.png?size=50x50&set=set1"
+    },
+    {
+      "id": 5,
+      "name": "Біг Мак",
+      "icon": "https://robohash.org/velitnemoamet.png?size=50x50&set=set1"
+    },
+    {
+      "id": 6,
+      "name": "Гамбургер",
+      "icon": "https://robohash.org/velitnemoamet.png?size=50x50&set=set1"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "name": "Дабл Чікен Кентукі",
+      "icon": "https://robohash.org/velitnemoamet.png?size=50x50&set=set1"
+    },
+    {
+      "id": 2,
+      "name": "Житній зі свининою та соусом з хріном",
+      "icon": "https://robohash.org/velitnemoamet.png?size=50x50&set=set1"
+    },
+    {
+      "id": 3,
+      "name": "Житній з куркою та часниковим соусом",
+      "icon": "https://robohash.org/velitnemoamet.png?size=50x50&set=set1"
+    },
+    {
+      "id": 4,
+      "name": "Дабл Чізбургер",
+      "icon": "https://robohash.org/velitnemoamet.png?size=50x50&set=set1"
+    },
+    {
+      "id": 5,
+      "name": "Біг Мак",
+      "icon": "https://robohash.org/velitnemoamet.png?size=50x50&set=set1"
+    },
+    {
+      "id": 6,
+      "name": "Гамбургер",
+      "icon": "https://robohash.org/velitnemoamet.png?size=50x50&set=set1"
+    }
+  ]
+}
