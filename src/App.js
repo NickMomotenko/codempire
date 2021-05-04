@@ -15,24 +15,20 @@ import Item from "./UI/Item";
 
 const AppWrapp = styled.div``;
 
-const App = () => {
-  const [active, setActive] = useState(null);
+const App = (props) => {
+  let { activeBurger , changeActiveBurger} = props
 
   const location = useLocation();
-
-  const changeActive = (item) => {
-    setActive(item);
-  };
 
   return (
     <AppWrapp>
       <Container>
-        <Header location={location} activeName={active?.name} />
+        <Header location={location} activeName={activeBurger?.name} />
         <Route exact path="/">
-          <Main changeActive={changeActive} />
+          <Main changeActive={changeActiveBurger} />
         </Route>
-        <Route exact path="/1">
-          <Item item={active} />
+        <Route exact path={`/${activeBurger?.id}`}>
+          <Item item={activeBurger} />
         </Route>
         <Route exact path="/busket">
           <Busket />

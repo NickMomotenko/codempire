@@ -20,11 +20,9 @@ const Busket = (props) => {
 
   let history = useHistory();
 
-  console.log(orders[0]);
-
   const incrementCounter = (id) => {
     let arr = orders.map((item) => {
-      if (item.id === id) {
+      if (item?.id === id) {
         item.counter = item.counter + 1;
       }
 
@@ -36,8 +34,8 @@ const Busket = (props) => {
 
   const decrementCounter = (id) => {
     let arr = orders.map((item) => {
-      if (item.id === id) {
-        if (item.counter <= 1) {
+      if (item?.id === id) {
+        if (item?.counter <= 1) {
           item.counter = 1;
         } else {
           item.counter = item.counter - 1;
@@ -52,9 +50,9 @@ const Busket = (props) => {
 
   return (
     <BusketWrapp>
-      {orders.length === 0
+      {orders?.length === 0
         ? `Корзина пуста ...`
-        : orders.map((order) => (
+        : orders?.map((order) => (
             <BusketItem key={order?.orderId}>
               <Row>
                 <Image url={order?.item?.icon} alt={order?.item?.name} />
@@ -84,7 +82,8 @@ const Busket = (props) => {
         text="Завершить"
         onClick={() => {
           history.push("/");
-          setOrders([]);
+          localStorage.setItem("orders", JSON.stringify([]));
+          setOrders(JSON.parse(localStorage.getItem("orders")));
         }}
       />
     </BusketWrapp>
