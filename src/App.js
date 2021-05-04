@@ -16,7 +16,7 @@ import Item from "./UI/Item";
 const AppWrapp = styled.div``;
 
 const App = (props) => {
-  let { activeBurger , changeActiveBurger} = props
+  let { activeBurger, changeActiveBurger } = props;
 
   const location = useLocation();
 
