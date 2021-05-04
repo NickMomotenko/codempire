@@ -6,6 +6,7 @@ const url = `https://my-json-server.typicode.com/NickMomotenko/codempire/db`;
 
 export const DataProvider = ({ children }) => {
   const [data, setData] = useState(null);
+  const [orders, setOrders] = useState([]);
 
   const fetchedData = () => {
     fetch(url)
@@ -19,8 +20,14 @@ export const DataProvider = ({ children }) => {
     fetchedData();
   }, []);
 
+  const addOrder = (order) => {
+    setOrders([...orders, order]);
+  };
+
   return (
-    <DataContext.Provider value={{ data, setData }}>
+    <DataContext.Provider
+      value={{ data, setData, orders, addOrder, setOrders }}
+    >
       {children}
     </DataContext.Provider>
   );

@@ -19,7 +19,6 @@ const MainList = styled(Row)`
 const Main = (props) => {
   let { data, changeActive } = props;
 
-  const history = useHistory();
 
   return (
     <MainWrapp>
@@ -32,8 +31,6 @@ const Main = (props) => {
             onClick={() => changeActive(item)}
           />
         ))}
-        <Button text="Заказать" />
-        <Button text="Подтвердить" onClick={() => history.push("/busket")} />
       </MainList>
     </MainWrapp>
   );

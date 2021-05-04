@@ -3,35 +3,20 @@ import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 
 import Button from "../Button";
+import { Row } from "../Layout";
 
 const CounterWrapp = styled.div``;
 
 const CounterValue = styled.div``;
 
-const Counter = () => {
-  const [counter, setCounter] = useState(0);
-
-  useEffect(() => {
-    if (counter <= 0) {
-      setCounter(0);
-    }
-  }, [counter]);
-
+const Counter = ({ incrementCounter, decrementCounter, count }) => {
   return (
     <CounterWrapp>
-      <Button
-        text="-"
-        onClick={() => setCounter((prev) => prev - 1)}
-        circle
-        size={20}
-      />
-      <CounterValue>{counter}</CounterValue>
-      <Button
-        text="+"
-        onClick={() => setCounter((prev) => prev + 1)}
-        circle
-        size={20}
-      />
+      <Row>
+        <Button text="-" onClick={decrementCounter} circle size={20} />
+        <CounterValue>{count}</CounterValue>
+        <Button text="+" onClick={incrementCounter} circle size={20} />
+      </Row>
     </CounterWrapp>
   );
 };

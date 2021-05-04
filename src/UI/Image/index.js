@@ -8,8 +8,8 @@ const ImageWrapp = styled.img.attrs(({ url }) => ({
   display: inline-block;
 `;
 
-const Image = ({ url, alt }) => {
-  return <ImageWrapp url={url} alt={alt} />;
+const Image = ({ url, alt ,...props }) => {
+  return <ImageWrapp url={url} alt={alt} {...props} />;
 };
 
 export default Image;

@@ -9,6 +9,7 @@ import { withData } from "./context/data";
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Busket from "./components/Busket";
+import Container from "./components/Container";
 
 import Item from "./UI/Item";
 
@@ -25,16 +26,18 @@ const App = () => {
 
   return (
     <AppWrapp>
-      <Header location={location} activeName={active?.name} />
-      <Route exact path="/">
-        <Main changeActive={changeActive} />
-      </Route>
-      <Route exact path="/1">
-        <Item item={active} />
-      </Route>
-      <Route exact path="/busket">
-        <Busket />
-      </Route>
+      <Container>
+        <Header location={location} activeName={active?.name} />
+        <Route exact path="/">
+          <Main changeActive={changeActive} />
+        </Route>
+        <Route exact path="/1">
+          <Item item={active} />
+        </Route>
+        <Route exact path="/busket">
+          <Busket />
+        </Route>
+      </Container>
     </AppWrapp>
   );
 };
